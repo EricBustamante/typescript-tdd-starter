@@ -1,0 +1,16 @@
+{
+  "name": "typescript-tdd-starter",
+  "description": "Essential components to start a Test-Driven Development project using Typescript",
+  "scripts": {
+    "test": "mocha -r ts-node/register spec/**/*.spec.ts",
+    "test:watch": "mocha -r ts-node/register --watch --watch-files src, spec/**/*.spec.ts"
+  },
+  "devDependencies": {
+    "@types/chai": "^4.2.15",
+    "@types/mocha": "^8.2.2",
+    "chai": "^4.3.4",
+    "mocha": "^8.3.2",
+    "ts-node": "^9.1.1",
+    "typescript": "^4.2.3"
+  }
+}
